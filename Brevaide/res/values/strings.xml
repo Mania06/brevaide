@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">test</string>
+    <string name="app_name">Testportable</string>
+    <string name="button1">Policier</string>
+    <string name="button2">Fiction</string>
+    <string name="button3">Documentaire</string>
+    <string name="button4">Série</string>
+    <string name="menu1">Rechercher un film</string>
+    <string name="menu2">Réserver un DVD</string>
+    <string name="menu3">Magasins</string>
+    <string name="menu4">Présentation</string>
+    <string name="menu4_1">Contact</string>
+    <string name="menu4_2">L\'équipe</string>
+    <string name="menu4_3">Croissance</string>
+    <string name="title_activity_policier">Policier</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="bonsoir">Bonsouére batarre. T'es un gros crevard de merde!</string>
+    <string name="title_activity_serie">Serie</string>
+    <string name="title_activity_fiction">Fiction</string>
+    <string name="title_activity_documentaire">Documentaire</string>
 
 </resources>
