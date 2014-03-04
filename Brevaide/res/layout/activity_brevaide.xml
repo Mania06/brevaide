@@ -15,37 +15,52 @@
         android:textColor="@color/blue"
         android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/button1"
-        style="@style/styleButton"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="@string/button1" />
+        android:gravity="center"
+        android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:text="@string/button2" />
+        <Button
+            android:id="@+id/button1"
+            style="@style/styleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button1" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:text="@string/button3" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/button4"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="@string/button4" />
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3" />
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

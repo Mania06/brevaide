@@ -2,10 +2,9 @@
 <resources>
 
     <string name="app_name">Testportable</string>
-    <string name="button1">Policier</string>
-    <string name="button2">Fiction</string>
-    <string name="button3">Documentaire</string>
-    <string name="button4">Série</string>
+    <string name="button1">QCM</string>
+    <string name="button2">Test</string>
+    <string name="button3">Stats</string>
     <string name="menu1">Rechercher un film</string>
     <string name="menu2">Réserver un DVD</string>
     <string name="menu3">Magasins</string>
