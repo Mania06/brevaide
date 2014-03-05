@@ -22,7 +22,6 @@ public class QCM extends Activity {
 		setContentView(R.layout.activity_qcm);
 		
 		final TextView question = (TextView) findViewById(R.id.question);
-		final TextView resultat = (TextView) findViewById(R.id.resultat);
 		final RadioButton answer1 = (RadioButton) findViewById(R.id.answer1);
 		final RadioButton answer2 = (RadioButton) findViewById(R.id.answer2);
 		final RadioButton answer3 = (RadioButton) findViewById(R.id.answer3);
@@ -40,9 +39,10 @@ public class QCM extends Activity {
 			public void onClick(View v) {
 				if(questionCounter >= 10)
 				{
-
+					
 					setContentView(R.layout.activity_qcm_resultat);
-					//resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
+					TextView resultat = (TextView) findViewById(R.id.resultat);
+					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
 
 				}
 				else
