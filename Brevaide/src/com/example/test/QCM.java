@@ -10,7 +10,8 @@ import android.app.Activity;
 public class QCM extends Activity {
 	
 	
-	public int questionCounter;
+	public int questionCounter = 0;
+	public int correctQuestionCounter = 0;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,13 +19,14 @@ public class QCM extends Activity {
 		setContentView(R.layout.activity_qcm);
 		
 		final TextView question = (TextView) findViewById(R.id.question);
+		final TextView resultat = (TextView) findViewById(R.id.resultat);
 		final RadioButton answer1 = (RadioButton) findViewById(R.id.answer1);
 		final RadioButton answer2 = (RadioButton) findViewById(R.id.answer2);
 		final RadioButton answer3 = (RadioButton) findViewById(R.id.answer3);
-		Button validate = (Button) findViewById(R.id.validate);
+		final Button validate = (Button) findViewById(R.id.validate);
 		
 
-		question.setText("Bonsouère ! Es tu un battarre?" + questionCounter);
+		question.setText("Bonsouère ! Es tu un battarre? (" + questionCounter + "/10)");
 		answer1.setText("Oui");
 		answer2.setText("Non");
 		answer3.setText("Hahaha !!!!");
@@ -33,11 +35,19 @@ public class QCM extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				questionCounter++;
-				question.setText("Bonsouère ! Es tu un battarre? (" + questionCounter + "/10)");
-				answer1.setText("Oui");
-				answer2.setText("Non");
-				answer3.setText("Hahaha !!!!");			
+				if(questionCounter >= 10)
+				{
+					setContentView(R.layout.activity_qcm_resultat);
+					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
+				}
+				else
+				{
+					questionCounter++;
+					question.setText("Bonsouère ! Es tu un battarre? (" + questionCounter + "/10)");
+					answer1.setText("Oui");
+					answer2.setText("Non");
+					answer3.setText("Hahaha !!!!");			
+				}
 			}
 			
 			
