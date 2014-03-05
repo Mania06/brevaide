@@ -23,11 +23,11 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonQCM"
             style="@style/styleButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button1" />
+            android:text="@string/QCM" />
 
     </LinearLayout>
 
@@ -39,10 +39,10 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonTest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button2" />
+            android:text="@string/Test" />
 
     </LinearLayout>
 
@@ -54,10 +54,10 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonStats"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button3" />
+            android:text="@string/Stats" />
 
     </LinearLayout>
 

@@ -2,9 +2,9 @@
 <resources>
 
     <string name="app_name">Testportable</string>
-    <string name="button1">QCM</string>
-    <string name="button2">Test</string>
-    <string name="button3">Stats</string>
+    <string name="QCM">QCM</string>
+    <string name="Test">Test</string>
+    <string name="Stats">Stats</string>
     <string name="menu1">Rechercher un film</string>
     <string name="menu2">Réserver un DVD</string>
     <string name="menu3">Magasins</string>
@@ -18,5 +18,8 @@
     <string name="title_activity_serie">Serie</string>
     <string name="title_activity_fiction">Fiction</string>
     <string name="title_activity_documentaire">Documentaire</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_qcm">QCM</string>
+    <string name="title_activity_stats">Stats</string>
 
 </resources>

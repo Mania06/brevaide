@@ -22,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.test.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.test.QCM"
+            android:label="@string/title_activity_qcm" >
+        </activity>
+        <activity
+            android:name="com.example.test.Stats"
+            android:label="@string/title_activity_stats" >
+        </activity>
     </application>
 
 </manifest>
