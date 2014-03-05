@@ -1,0 +1,32 @@
+<test>
+    
+    <matiere name="math">
+        
+        <question text="2*2 = ?">
+            <reponse id="1" text="4" vraie />
+            <reponse id="2" text="7" />
+            <reponse id="3" text="1" />
+        </question>
+        
+        <question text="5+4">
+            <reponse id="1" text="9" vraie />
+            <reponse id="2" text="0" />
+            <reponse id="3" text="8.999" />
+        </question>     
+        
+        <question>
+            <reponse id="1" text="" />
+            <reponse id="2" text="" vraie />
+            <reponse id="3" text="" />      
+        </question>
+    </matiere>
+    
+    <matiere name="francais">
+        
+    </matiere>
+    
+    <matiere name="histoire">
+        
+    </matiere>
+    
+</test>
