@@ -18,6 +18,7 @@ public class DbHandler extends SQLiteOpenHelper{
 				STATS_QCM_DATE + " DATETIME DEFAULT CURRENT_DATE, " +
 				STATS_QCM_MATIERE + " TEXT NOT NULL, " +
 				STATS_QCM_SCORE + " INTEGER NOT NULL);";
+	private static final String STATS_QCM_TABLE_DROP = "DROP TABLE IF EXISTS " + STATS_QCM_TABLE_NAME + ";";
 	
 	
 	public DbHandler(Context context, String name, CursorFactory factory,int version) {
@@ -35,4 +36,9 @@ public class DbHandler extends SQLiteOpenHelper{
 		
 	}
 
+	public void reset_qcm_stats(SQLiteDatabase db){
+		  db.execSQL(STATS_QCM_TABLE_DROP);
+		  onCreate(db);
+	} 
+	
 }

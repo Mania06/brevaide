@@ -1,7 +1,5 @@
 package com.example.brevaide;
 
-import com.example.test.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 

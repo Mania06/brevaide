@@ -27,7 +27,7 @@
             android:label="@string/title_activity_test" >
         </activity>
         <activity
-            android:name="com.example.brevaide.QCM"
+            android:name="com.example.brevaide.Act_QCM"
             android:label="@string/title_activity_qcm" >
         </activity>
         <activity

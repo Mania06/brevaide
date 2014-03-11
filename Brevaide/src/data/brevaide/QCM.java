@@ -1,6 +1,8 @@
 package data.brevaide;
 
-import java.sql.Date;
+import java.util.Date;
+
+
 
 public class QCM {
 	public long id;
@@ -8,15 +10,22 @@ public class QCM {
 	public String matiere;
 	public int score;
 	
-	public QCM(long id, Date date, String matiere, int score) {
+	public QCM(String matiere, int score) {
 		super();
-		this.id = id;
-		this.date = date;
 		this.matiere = matiere;
 		this.score = score;
 	}
 
 	
+
+
+	public QCM() {
+		super();
+	}
+
+
+
+
 	public long getId() {
 		return id;
 	}
@@ -43,5 +52,11 @@ public class QCM {
 	}
 	public void setScore(int score) {
 		this.score = score;
+	}
+
+	@Override
+	public String toString() {
+		return "QCM [id=" + id + ", date=" + date + ", matiere=" + matiere
+				+ ", score=" + score + "]";
 	}
 }

@@ -8,19 +8,22 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import xml.brevaide.QuestionsXMLHandler;
 
-import com.example.brevaide.QCM;
-import com.example.test.R;
+import com.example.brevaide.Act_QCM;
 
+import data.brevaide.QCM;
 import data.brevaide.Question;
+import db.brevaide.Db_QCM;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.app.Activity;
 
-public class QCM extends Activity {
+public class Act_QCM extends Activity {
 	
 	ArrayList<Question> Questions;
 	Question currentQuestion;
@@ -28,7 +31,6 @@ public class QCM extends Activity {
 	public int questionCounter = 0;
 	public int correctQuestionCounter = 0;
 	
-
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,8 +48,6 @@ public class QCM extends Activity {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-
 		
 		final TextView question = (TextView) findViewById(R.id.question);
 		final RadioButton answer1 = (RadioButton) findViewById(R.id.answer1);
@@ -82,14 +82,24 @@ public class QCM extends Activity {
 				else if(answer3.isChecked())
 					userAnswerID = 3;
 				else
+				{
+					Toast.makeText(getApplicationContext(), R.string.error_have_to_check, Toast.LENGTH_SHORT ).show();
 					return;
-					
+				}
 				if(userAnswerID == answerID)
 					correctQuestionCounter++;
 				
 				
 				if(questionCounter >= 10)
 				{	
+					
+					QCM qcm = new QCM("maths", correctQuestionCounter*10);
+					Db_QCM dbQcm = new Db_QCM(getApplicationContext());
+					
+					dbQcm.open();
+					dbQcm.add(qcm);
+					dbQcm.close();
+					
 					setContentView(R.layout.activity_qcm_resultat);
 					TextView resultat = (TextView) findViewById(R.id.resultat);
 					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");

@@ -1,7 +1,5 @@
 package com.example.brevaide;
 
-import com.example.test.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -29,7 +27,7 @@ public class Brevaide extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				startActivity(new Intent(Brevaide.this,QCM.class));
+				startActivity(new Intent(Brevaide.this,Act_QCM.class));
 			}
 
 		});
