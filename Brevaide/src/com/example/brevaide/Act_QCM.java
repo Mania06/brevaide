@@ -15,7 +15,6 @@ import data.brevaide.Question;
 import db.brevaide.Db_QCM;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
