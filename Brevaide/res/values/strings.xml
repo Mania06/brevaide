@@ -16,4 +16,5 @@
 
     
     <string name="error_have_to_check">Vous devez selectionner un élément</string>
+    <string name="reset">Reset</string>
 </resources>

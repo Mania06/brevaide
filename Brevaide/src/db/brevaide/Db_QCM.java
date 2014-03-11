@@ -2,6 +2,7 @@ package db.brevaide;
 
 import java.text.DateFormat;
 import java.text.ParseException;
+import java.util.ArrayList;
 import java.util.Date;
 
 import data.brevaide.QCM;
@@ -49,11 +50,16 @@ public class Db_QCM {
 		ContentValues value = new ContentValues();
 		DateFormat dateFormat = DateFormat.getDateInstance();
 		
-		value.put(COL_DATE, dateFormat.format(new Date(0)));
+		value.put(COL_DATE, dateFormat.format(new Date()));
 		value.put(COL_MATIERE, qcm.getMatiere());
 		value.put(COL_SCORE, qcm.getScore());
 		
 		db.insert(TABLE_NAME, null, value);
+	}
+	
+	public void reset()
+	{
+		db.delete(TABLE_NAME,null,null);
 	}
 	
 	public int delete(QCM qcm){
@@ -65,20 +71,55 @@ public class Db_QCM {
 		Cursor c = db.query(TABLE_NAME, new String[] {COL_ID, COL_DATE, COL_MATIERE, COL_SCORE}, COL_ID + " = " + id, null, null, null, null);
 		return cursorToQCM(c);
 	}
-
-	private QCM cursorToQCM(Cursor c) {
+	
+	public ArrayList<QCM> getAllQCM(){
+		ArrayList<QCM> QCMs = new ArrayList<QCM>();
+		db = DbHandler.getReadableDatabase();
+		Cursor c= db.rawQuery("SELECT * FROM " + TABLE_NAME, null);
 		
 		if (c.getCount() == 0)
-			return null;
+			return QCMs;
+		
+		if(c != null)
+			c.moveToFirst();
+		
+		
+		while (!c.isAfterLast())
+		{
+			QCM qcm = new QCM();
+			qcm.setId(c.getInt(NUM_COL_ID));
+			String DateTime = c.getString(NUM_COL_DATE);
+			DateFormat dateFormat = DateFormat.getDateInstance();
+			try {
+				qcm.setDate(dateFormat.parse(DateTime));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			
+			qcm.setMatiere(c.getString(NUM_COL_MATIERE));
+			qcm.setScore(c.getInt(NUM_COL_SCORE));
+			
+			QCMs.add(qcm);
+			c.moveToNext();
+		}
+		
+		c.close();
+		return QCMs;
+	}
+	
+
+	private QCM cursorToQCM(Cursor c) {
+		QCM qcm = new QCM();
+		
+		if (c.getCount() == 0)
+			return qcm;
  
 		if(c != null)
 			c.moveToFirst();
 		
-		QCM qcm = new QCM();
-		
+	
 		qcm.setId(c.getInt(NUM_COL_ID));
 		String DateTime = c.getString(NUM_COL_DATE);
-		
 		DateFormat dateFormat = DateFormat.getDateInstance();
 		try {
 			qcm.setDate(dateFormat.parse(DateTime));

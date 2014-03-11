@@ -88,7 +88,6 @@ public class Act_QCM extends Activity {
 				if(userAnswerID == answerID)
 					correctQuestionCounter++;
 				
-				
 				if(questionCounter >= 10)
 				{	
 					
