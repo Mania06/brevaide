@@ -89,7 +89,7 @@ public class Db_QCM {
 			QCM qcm = new QCM();
 			qcm.setId(c.getInt(NUM_COL_ID));
 			String DateTime = c.getString(NUM_COL_DATE);
-			DateFormat dateFormat = DateFormat.getDateInstance();
+			DateFormat dateFormat = DateFormat.getInstance();
 			try {
 				qcm.setDate(dateFormat.parse(DateTime));
 			} catch (ParseException e) {
@@ -120,7 +120,7 @@ public class Db_QCM {
 	
 		qcm.setId(c.getInt(NUM_COL_ID));
 		String DateTime = c.getString(NUM_COL_DATE);
-		DateFormat dateFormat = DateFormat.getDateInstance();
+		DateFormat dateFormat = DateFormat.getInstance();
 		try {
 			qcm.setDate(dateFormat.parse(DateTime));
 		} catch (ParseException e) {
