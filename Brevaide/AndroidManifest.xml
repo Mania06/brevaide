@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.test"
+    package="com.example.brevaide"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.test.Brevaide"
+            android:name="com.example.brevaide.Brevaide"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,15 +23,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.test.Test"
+            android:name="com.example.brevaide.Test"
             android:label="@string/title_activity_test" >
         </activity>
         <activity
-            android:name="com.example.test.QCM"
+            android:name="com.example.brevaide.QCM"
             android:label="@string/title_activity_qcm" >
         </activity>
         <activity
-            android:name="com.example.test.Stats"
+            android:name="com.example.brevaide.Stats"
             android:label="@string/title_activity_stats" >
         </activity>
     </application>
