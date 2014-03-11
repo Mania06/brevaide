@@ -6,11 +6,12 @@ import java.util.ArrayList;
 
 import org.xmlpull.v1.XmlPullParserException;
 
+import xml.brevaide.QuestionsXMLHandler;
+
 import com.example.brevaide.QCM;
 import com.example.test.R;
 
 import data.brevaide.Question;
-import data.brevaide.QuestionsXMLHandler;
 
 import android.os.Bundle;
 import android.view.View;

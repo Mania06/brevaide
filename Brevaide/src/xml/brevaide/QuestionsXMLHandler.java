@@ -1,4 +1,4 @@
-package data.brevaide;
+package xml.brevaide;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-import android.util.Log;
+import data.brevaide.Question;
+
 import android.util.Xml;
 
 public class QuestionsXMLHandler {
