@@ -16,7 +16,6 @@ import data.brevaide.Question;
 import db.brevaide.Db_QCM;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -24,6 +23,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.app.Activity;
+import android.content.Intent;
 
 public class Act_QCM extends Activity {
 	
@@ -79,6 +79,7 @@ public class Act_QCM extends Activity {
 				int answerID = currentQuestion.getAnswerId();
 				int userAnswerID;
 				
+				
 				RadioButton answer1 =  (RadioButton) findViewById(R.id.answer1);
 				RadioButton answer2 =  (RadioButton) findViewById(R.id.answer2);
 				RadioButton answer3 =  (RadioButton) findViewById(R.id.answer3);
@@ -100,6 +101,9 @@ public class Act_QCM extends Activity {
 					Toast.makeText(getApplicationContext(), R.string.error_have_to_check, Toast.LENGTH_SHORT ).show();
 					return;
 				}
+				
+				currentQuestion.setUserAnswerId(userAnswerID);
+				
 				if(userAnswerID == answerID)
 					correctQuestionCounter++;
 				else
@@ -123,14 +127,14 @@ public class Act_QCM extends Activity {
 
 						@Override
 						public void onClick(View v) {
-							
-							
+							Intent intent = new Intent(Act_QCM.this,SeeQcmErrors.class);
+							intent.putExtra("falseQuestions",falseQuestions);
+							startActivity(intent);
+
 						}});
 					
 					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
 					
-					for(int i=0;i<falseQuestions.size();i++)
-						Log.i("Mania",falseQuestions.get(i).getText());
 				}
 				else
 				{	

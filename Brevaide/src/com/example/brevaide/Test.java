@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 
 public class Test extends Activity {
-	// Test
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

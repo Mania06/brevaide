@@ -10,6 +10,14 @@ public class QCM {
 	public String matiere;
 	public int score;
 	
+	public QCM(int id, Date date, String matiere, int score) {
+		super();
+		this.id = id;
+		this.date = date;
+		this.matiere = matiere;
+		this.score = score;
+	}
+
 	public QCM(String matiere, int score) {
 		super();
 		this.matiere = matiere;

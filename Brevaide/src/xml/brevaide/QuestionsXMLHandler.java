@@ -51,30 +51,27 @@ public class QuestionsXMLHandler {
 	private Question readQuestion(XmlPullParser parser) throws XmlPullParserException, IOException {
 		parser.require(XmlPullParser.START_TAG, ns, "question");
 		
-		Question question = new Question();
+		
 	
 	    String text = parser.getAttributeValue(null, "text");
 	    int answerID = Integer.parseInt(parser.getAttributeValue(null, "answerID"));
-	    question.setText(text);
-	    question.setAnswerId(answerID);
-	    
 	    int reponseCounter = 0;
-		String reponse = "";
+		String[] answers = new String[3];
 		
 		while (parser.next() != XmlPullParser.END_TAG) {
 	        if (parser.getEventType() != XmlPullParser.START_TAG) {
 	            continue;
 	        }
 	        String name = parser.getName();
-	        if (name.equals("reponse")) {
-	            reponse = readReponse(parser);
-	            question.setAnswer(reponseCounter, reponse);
+	        if (name.equals("reponse") && reponseCounter < 3) {
+	            answers[reponseCounter] = readReponse(parser);
 	            reponseCounter++;
 	        } else {
 	            skip(parser);
 	        }
 	    }
-		return question;
+		
+		return new Question(text, answers, answerID);
 	}
 	
 	private String readReponse(XmlPullParser parser) throws IOException, XmlPullParserException {

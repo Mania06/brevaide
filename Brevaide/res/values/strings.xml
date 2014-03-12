@@ -19,5 +19,10 @@
     <string name="history">Histoire</string>
     <string name="selectDiscipline">Choisis la matière</string>
     <string name="seeErrors">Voir mes erreurs</string>
+    <string name="title_activity_see_qcm_errors">SeeQcmErrors</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_text_label">Question : </string>
+    <string name="question_answer_label">La réponse : </string>
+    <string name="question_user_answer_label">Votre réponse : </string>
 
 </resources>
