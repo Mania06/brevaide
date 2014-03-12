@@ -34,6 +34,10 @@
             android:name="com.example.brevaide.Stats"
             android:label="@string/title_activity_stats" >
         </activity>
+        <activity
+            android:name="com.example.brevaide.SelectDiscipline"
+            android:label="@string/title_activity_select_discipline" >
+        </activity>
     </application>
 
 </manifest>

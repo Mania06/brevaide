@@ -36,9 +36,10 @@ public class Act_QCM extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_qcm);
 		
+		final String discipline = getIntent().getExtras().getString("discipline");
 		
 		try {
-			InputStream in = getApplicationContext().getAssets().open("questions.xml");
+			InputStream in = getApplicationContext().getAssets().open(discipline + ".xml");
 			QuestionsXMLHandler XMLHandler = new QuestionsXMLHandler();	
 			Questions = XMLHandler.parse(in);
 
@@ -48,6 +49,8 @@ public class Act_QCM extends Activity {
 			e.printStackTrace();
 		}
 		
+
+		
 		final TextView question = (TextView) findViewById(R.id.question);
 		final RadioButton answer1 = (RadioButton) findViewById(R.id.answer1);
 		final RadioButton answer2 = (RadioButton) findViewById(R.id.answer2);
@@ -56,7 +59,7 @@ public class Act_QCM extends Activity {
 		
 		currentQuestion = Questions.get(questionCounter);		
 		
-		
+
 		question.setText(currentQuestion.getText());
 		answer1.setText(currentQuestion.getAnswer(0));
 		answer2.setText(currentQuestion.getAnswer(1));
@@ -91,7 +94,7 @@ public class Act_QCM extends Activity {
 				if(questionCounter >= 10)
 				{	
 					
-					QCM qcm = new QCM("maths", correctQuestionCounter*10);
+					QCM qcm = new QCM(discipline, correctQuestionCounter*10);
 					Db_QCM dbQcm = new Db_QCM(getApplicationContext());
 					
 					dbQcm.open();

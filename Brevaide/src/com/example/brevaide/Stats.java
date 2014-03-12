@@ -38,7 +38,7 @@ public class Stats extends Activity {
 			average = average/counterQcms;
 		
 		counter.setText("Nombre de tests : " + Integer.toString(counterQcms));
-		mean.setText("Moyenne : " + Integer.toString(average) + "%");
+		mean.setText("Moyenne des tests : " + Integer.toString(average) + "%");
 		
 		reset.setOnClickListener(new OnClickListener(){
 

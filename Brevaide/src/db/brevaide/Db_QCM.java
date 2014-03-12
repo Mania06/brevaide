@@ -48,7 +48,7 @@ public class Db_QCM {
 	
 	public void add(QCM qcm) {
 		ContentValues value = new ContentValues();
-		DateFormat dateFormat = DateFormat.getDateInstance();
+		DateFormat dateFormat = DateFormat.getInstance();
 		
 		value.put(COL_DATE, dateFormat.format(new Date()));
 		value.put(COL_MATIERE, qcm.getMatiere());
