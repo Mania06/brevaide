@@ -15,18 +15,14 @@ import data.brevaide.QCM;
 import data.brevaide.Question;
 import db.brevaide.Db_QCM;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.annotation.TargetApi;
 import android.app.Activity;
 
 public class Act_QCM extends Activity {
@@ -151,29 +147,9 @@ public class Act_QCM extends Activity {
 			
 		});
 		
-		setupActionBar();
+
 	}
 
-	/**
-	 * Set up the {@link android.app.ActionBar}, if the API is available.
-	 */
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	private void setupActionBar() {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			getActionBar().setDisplayHomeAsUpEnabled(true);
-		}
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-
-			NavUtils.navigateUpFromSameTask(this);
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
 	
 	public static class Util {
 

@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import data.brevaide.QCM;
 import db.brevaide.Db_QCM;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.app.Activity;
+import android.content.Intent;
 
 public class Stats extends Activity {
 
@@ -21,8 +21,8 @@ public class Stats extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_stats);
+		Db_QCM dbQcm = new Db_QCM(getApplicationContext());
 		
-		final Db_QCM dbQcm = new Db_QCM(getApplicationContext());
 		ArrayList<QCM> qcms = dbQcm.getAllQCM();
 		int counterQcms = qcms.size();
 		int average = 0;
@@ -41,6 +41,7 @@ public class Stats extends Activity {
 		counter.setText("Nombre de tests : " + Integer.toString(counterQcms));
 		mean.setText("Moyenne des tests : " + Integer.toString(average) + "%");
 		
+		dbQcm.close();
 	}
 	
 	@Override
@@ -50,21 +51,29 @@ public class Stats extends Activity {
 		return true;
 	}
 	
+	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		Db_QCM dbQcm = new Db_QCM(getApplicationContext());
 		
-		final Db_QCM dbQcm = new Db_QCM(getApplicationContext());
-		Log.i("Mania", ""+item.getItemId());
 		switch (item.getItemId()) {
-			case android.R.id.home:
-				NavUtils.navigateUpFromSameTask(this);
+			case R.id.reset_qcm_stats:
+				dbQcm.open();
+ 				dbQcm.reset();
+ 				dbQcm.close();
+ 				// Refreshing
+ 				
+ 				Intent intent = getIntent();
+ 				overridePendingTransition(0, 0);
+ 				intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+ 				finish();
+ 				overridePendingTransition(0, 0);
+ 				startActivity(intent);
+ 				
 				return true;
-			
-			case R.id.reponse :
-  				dbQcm.reset();
-				finish();
-				startActivity(getIntent());		
-				break;
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+ 
+
 }
