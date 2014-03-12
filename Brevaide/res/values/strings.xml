@@ -13,7 +13,7 @@
     <string name="error_have_to_check">Vous devez selectionner un élément</string>
     <string name="reset">Reset</string>
     <string name="title_activity_select_discipline">SelectDiscipline</string>
-    <string name="action_settings">Settings</string>
+    <string name="reset_qcm_stats">Reset les stats des QCM</string>
     <string name="french">Francais</string>
     <string name="maths">Mathématiques</string>
     <string name="history">Histoire</string>

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -24,19 +24,35 @@
         </activity>
         <activity
             android:name="com.example.brevaide.Test"
-            android:label="@string/title_activity_test" >
+            android:label="@string/title_activity_test" 
+            android:parentActivityName="com.example.brevaide.Brevaide" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.brevaide.Brevaide" />
         </activity>
         <activity
             android:name="com.example.brevaide.Act_QCM"
-            android:label="@string/title_activity_qcm" >
+            android:label="@string/title_activity_qcm" 
+            android:parentActivityName="com.example.brevaide.SelectDiscipline" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.brevaide.SelectDiscipline" />
         </activity>
         <activity
             android:name="com.example.brevaide.Stats"
-            android:label="@string/title_activity_stats" >
+            android:label="@string/title_activity_stats"
+            android:parentActivityName="com.example.brevaide.Brevaide" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.brevaide.Brevaide" />
         </activity>
         <activity
             android:name="com.example.brevaide.SelectDiscipline"
-            android:label="@string/title_activity_select_discipline" >
+            android:label="@string/title_activity_select_discipline" 
+            android:parentActivityName="com.example.brevaide.Brevaide" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.brevaide.Brevaide" />
         </activity>
     </application>
 

@@ -1,5 +1,7 @@
 package data.brevaide;
 
+import java.util.Arrays;
+
 public class Question {
 	
 	public String text;
@@ -25,5 +27,11 @@ public class Question {
 	}
 	public void setAnswerId(int answerId){
 		this.answerId = answerId;
+	}
+	
+	@Override
+	public String toString() {
+		return "Question [text=" + text + ", answer=" + Arrays.toString(answer)
+				+ ", answerId=" + answerId + "]";
 	}
 }

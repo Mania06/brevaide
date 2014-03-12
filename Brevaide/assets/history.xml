@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
         
-    <question text="2*2 = ?" answerID="1">
-        <reponse>4</reponse>
-        <reponse>7</reponse>
-        <reponse>1</reponse>
+    <question text="Je t'aime pas" answerID="2">
+        <reponse>:(</reponse>
+        <reponse>Tu dis ca parce que je suis noir?</reponse>
+        <reponse>Tu crains</reponse>
     </question>
         
-    <question text="5+4" answerID="1">
-        <reponse>9</reponse>
-        <reponse>12</reponse>
-        <reponse>8.999</reponse>
+    <question text="Vous êtes Odile Deray?" answerID="3">
+        <reponse>JAMAIS, JAMAIIIIIIIIIS !!!</reponse>
+        <reponse>Oui, pour te faire plaisir ;)</reponse>
+        <reponse>Non, je suis le pape et j'attends ma soeur..</reponse>
     </question>     
         
-    <question text="Qui es tu?"  answerID="3">
-        <reponse>Toi</reponse>
-        <reponse>Moi</reponse>
-        <reponse>Nous</reponse>
+    <question text="Vous voulez du Wisky?"  answerID="1">
+        <reponse>Juste un doigt</reponse>
+        <reponse>Oui, mais pas trop</reponse>
+        <reponse>Pas beaucoup alors</reponse>
     </question>
     
-    <question text="Ensuite"  answerID="3">
-        <reponse>ok</reponse>
-        <reponse>Batard</reponse>
-        <reponse>Je t'emmerde</reponse>
+    <question text=".srevne'l à dnopéR"  answerID="3">
+        <reponse>Va crever</reponse>
+        <reponse>Paris Hamilton</reponse>
+        <reponse>.KO</reponse>
     </question>
     
-    <question text="9gag?"  answerID="3">
-        <reponse>.tv?</reponse>
-        <reponse>.come</reponse>
-        <reponse>.èffeaire</reponse>
+    <question text="David Douillet a-t-il vraiment détourné 20 centimes pendant la dernières opération « Pièces Jaunes »"  answerID="3">
+        <reponse>Oui, la CIA est sur le coup</reponse>
+        <reponse>Oui, mais Bernadette a étouffé l'affaire</reponse>
+        <reponse>Non, mais  David Douillet a fait 7 fois la couverture de Porc Magazine.</reponse>
     </question>
     
-    <question text="Non"  answerID="2">
-        <reponse>Si</reponse>
-        <reponse>Bien sur que si!</reponse>
-        <reponse>Ah, ok</reponse>
+    <question text="Quelle est la version afgane du Golf?"  answerID="1">
+        <reponse>Uniquement se mettre des coups de club dans la geule</reponse>
+        <reponse>Jouer avec des grenades à la place des balles de golf</reponse>
+        <reponse>Ceux qui le savent n'ont pas survécu</reponse>
     </question>
          
     
-    <question text="Tell me"  answerID="3">
-        <reponse>me</reponse>
-        <reponse>Me</reponse>
-        <reponse>No, better die !</reponse>
+    <question text="Combien de doigts peut tu te rentrer dans le nez en même temps?"  answerID="2">
+        <reponse>3</reponse>
+        <reponse>2 en comptant les orteils</reponse>
+        <reponse>1</reponse>
     </question>       
     
-    <question text="HAhahha"  answerID="1">
-        <reponse>Ne te moque pas des handicapés</reponse>
-        <reponse>ahahahahhahaha</reponse>
-        <reponse>Réponse D</reponse>
+    <question text="Vrai, c'est vrai et faux c'est faux, c'est vrai ca? Ou c'est faux?"  answerID="3">
+        <reponse>C'est faux</reponse>
+        <reponse>C'est pas vrai</reponse>
+        <reponse>C'est pas vrai que c'est faux</reponse>
     </question>       
     
-    <question text="Avez vous déja vu?"  answerID="1">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
+    <question text="Es ce que j'attaque la?"  answerID="1">
+        <reponse>Non, plutôt la!</reponse>
+        <reponse>Oui, la</reponse>
+        <reponse>A ta place, j'attaquerai la</reponse>
     </question>
 
-    <question text="Avez vous déja vu?"  answerID="2">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
+    <question text="Pourquoi quand un verre tombe, il casse toujours au dernier rebond?"  answerID="2">
+        <reponse>On peut pas savoir si ce sera vraiment le dernier</reponse>
+        <reponse>Parce que c'est le dernier rebond</reponse>
+        <reponse>C'est des probabilités, ca arrive que ce soit pas le dernier</reponse>
     </question>
     
 </questions>

@@ -3,6 +3,7 @@ package com.example.brevaide;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Random;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -14,20 +15,28 @@ import data.brevaide.QCM;
 import data.brevaide.Question;
 import db.brevaide.Db_QCM;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.annotation.TargetApi;
 import android.app.Activity;
 
 public class Act_QCM extends Activity {
 	
-	ArrayList<Question> Questions;
+	ArrayList<Question> falseQuestions = new ArrayList<Question>();
+	ArrayList<Question> questions;
 	Question currentQuestion;
-	
+
+    
 	public int questionCounter = 0;
+	public int[] questionCounterArray = {0,1,2,3,4,5,6,7,8,9};
 	public int correctQuestionCounter = 0;
 	
 
@@ -37,11 +46,10 @@ public class Act_QCM extends Activity {
 		setContentView(R.layout.activity_qcm);
 		
 		final String discipline = getIntent().getExtras().getString("discipline");
-		
 		try {
 			InputStream in = getApplicationContext().getAssets().open(discipline + ".xml");
 			QuestionsXMLHandler XMLHandler = new QuestionsXMLHandler();	
-			Questions = XMLHandler.parse(in);
+			questions = XMLHandler.parse(in);
 
 		} catch (XmlPullParserException e) {
 			e.printStackTrace();
@@ -57,7 +65,8 @@ public class Act_QCM extends Activity {
 		final RadioButton answer3 = (RadioButton) findViewById(R.id.answer3);
 		final Button validate = (Button) findViewById(R.id.validate);
 		
-		currentQuestion = Questions.get(questionCounter);		
+		Util.shuffle(questionCounterArray);
+		currentQuestion = questions.get(questionCounterArray[questionCounter]);		
 		
 
 		question.setText(currentQuestion.getText());
@@ -78,11 +87,17 @@ public class Act_QCM extends Activity {
 				RadioButton answer3 =  (RadioButton) findViewById(R.id.answer3);
 				
 				if(answer1.isChecked())
+				{
 					userAnswerID = 1;
+				}
 				else if(answer2.isChecked())
+				{
 					userAnswerID = 2;
+				}
 				else if(answer3.isChecked())
+				{
 					userAnswerID = 3;
+				}
 				else
 				{
 					Toast.makeText(getApplicationContext(), R.string.error_have_to_check, Toast.LENGTH_SHORT ).show();
@@ -90,6 +105,8 @@ public class Act_QCM extends Activity {
 				}
 				if(userAnswerID == answerID)
 					correctQuestionCounter++;
+				else
+					falseQuestions.add(currentQuestion);
 				
 				if(questionCounter >= 10)
 				{	
@@ -104,10 +121,13 @@ public class Act_QCM extends Activity {
 					setContentView(R.layout.activity_qcm_resultat);
 					TextView resultat = (TextView) findViewById(R.id.resultat);
 					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
+					
+					for(int i=0;i<falseQuestions.size();i++)
+						Log.i("Mania",falseQuestions.get(i).getText());
 				}
 				else
 				{	
-					currentQuestion = Questions.get(questionCounter);
+					currentQuestion = questions.get(questionCounterArray[questionCounter]);
 					questionCounter++;
 					
 					question.setText(currentQuestion.getText());
@@ -119,6 +139,50 @@ public class Act_QCM extends Activity {
 			
 			
 		});
+		
+		setupActionBar();
 	}
 
+	/**
+	 * Set up the {@link android.app.ActionBar}, if the API is available.
+	 */
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+	private void setupActionBar() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+			getActionBar().setDisplayHomeAsUpEnabled(true);
+		}
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+
+			NavUtils.navigateUpFromSameTask(this);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
+	public static class Util {
+
+	    private static Random random;
+
+	    /**
+	     * Code from method java.util.Collections.shuffle();
+	     */
+	    public static void shuffle(int[] array) {
+	        if (random == null) random = new Random();
+	        int count = array.length;
+	        for (int i = count; i > 1; i--) {
+	            swap(array, i - 1, random.nextInt(i));
+	        }
+	    }
+
+	    private static void swap(int[] array, int i, int j) {
+	        int temp = array[i];
+	        array[i] = array[j];
+	        array[j] = temp;
+	    }
+	}
 }

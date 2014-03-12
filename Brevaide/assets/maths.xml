@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
         
-    <question text="2*2 = ?" answerID="1">
-        <reponse>4</reponse>
-        <reponse>7</reponse>
-        <reponse>1</reponse>
+    <question text="Peux tu avoir faux a cette question? " answerID="1">
+        <reponse>Oui</reponse>
+        <reponse>Non</reponse>
+        <reponse>Non, évidement ...</reponse>
     </question>
         
-    <question text="5+4" answerID="1">
-        <reponse>9</reponse>
-        <reponse>12</reponse>
-        <reponse>8.999</reponse>
+    <question text="Combien de becs a un canard a qui on a rajouté un faux bec?" answerID="3">
+        <reponse>New-York</reponse>
+        <reponse>Iron Man</reponse>
+        <reponse>2</reponse>
     </question>     
         
-    <question text="Qui es tu?"  answerID="3">
-        <reponse>Toi</reponse>
-        <reponse>Moi</reponse>
-        <reponse>Nous</reponse>
+    <question text="Combien de roues a un tricycle sur une voiture conduite par un roux?"  answerID="1">
+        <reponse>8</reponse>
+        <reponse>4</reponse>
+        <reponse>7</reponse>
     </question>
     
-    <question text="Ensuite"  answerID="3">
-        <reponse>ok</reponse>
-        <reponse>Batard</reponse>
-        <reponse>Je t'emmerde</reponse>
+    <question text="Combien y a t-il de lettres dans l'alphabet"  answerID="1">
+        <reponse>9</reponse>
+        <reponse>26</reponse>
+        <reponse>3</reponse>
     </question>
     
     <question text="9gag?"  answerID="3">
-        <reponse>.tv?</reponse>
+        <reponse>.tv</reponse>
         <reponse>.come</reponse>
         <reponse>.èffeaire</reponse>
     </question>
     
-    <question text="Non"  answerID="2">
-        <reponse>Si</reponse>
-        <reponse>Bien sur que si!</reponse>
-        <reponse>Ah, ok</reponse>
+    <question text="Mais tu dis que le bonheur est irréductible et je dis Et il dit que ton espoir n´est pas si désespéré a condition d´analyser que l´absolu ne doit pas être annihiler par l´illusoire précarité de nos amours destitués"  answerID="2">
+        <reponse>Oui, évidement</reponse>
+		<reponse>Et vice et versa</reponse>
+        <reponse>Ne pas passer la question</reponse>
     </question>
          
     
-    <question text="Tell me"  answerID="3">
-        <reponse>me</reponse>
-        <reponse>Me</reponse>
-        <reponse>No, better die !</reponse>
+    <question text="imma firin mah"  answerID="1">
+        <reponse>lazor</reponse>
+        <reponse>Leroy Jenkins !</reponse>
+		<reponse>oui</reponse>
     </question>       
     
-    <question text="HAhahha"  answerID="1">
-        <reponse>Ne te moque pas des handicapés</reponse>
-        <reponse>ahahahahhahaha</reponse>
+    <question text="The answer?"  answerID="3">
+        <reponse>The answer</reponse>
+        <reponse>Yes</reponse>
+        <reponse>42</reponse>
+    </question>       
+    
+    <question text="Devine"  answerID="1">
+        <reponse>Sans problemes</reponse>
+        <reponse>Je sais pas</reponse>
         <reponse>Réponse D</reponse>
-    </question>       
-    
-    <question text="Avez vous déja vu?"  answerID="1">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
     </question>
 
-    <question text="Avez vous déja vu?"  answerID="2">
+    <question text="Avez vous déja vu?"  answerID="1">
         <reponse>Maintenant oui</reponse>
         <reponse>WHAT THE FUCK?</reponse>
         <reponse>Easy</reponse>
