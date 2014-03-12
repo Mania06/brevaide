@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+        
+    <question text="2*2 = ?" answerID="1">
+        <reponse>4</reponse>
+        <reponse>7</reponse>
+        <reponse>1</reponse>
+    </question>
+        
+    <question text="5+4" answerID="1">
+        <reponse>9</reponse>
+        <reponse>12</reponse>
+        <reponse>8.999</reponse>
+    </question>     
+        
+    <question text="Qui es tu?"  answerID="3">
+        <reponse>Toi</reponse>
+        <reponse>Moi</reponse>
+        <reponse>Nous</reponse>
+    </question>
+    
+    <question text="Ensuite"  answerID="3">
+        <reponse>ok</reponse>
+        <reponse>Batard</reponse>
+        <reponse>Je t'emmerde</reponse>
+    </question>
+    
+    <question text="9gag?"  answerID="3">
+        <reponse>.tv?</reponse>
+        <reponse>.come</reponse>
+        <reponse>.èffeaire</reponse>
+    </question>
+    
+    <question text="Non"  answerID="2">
+        <reponse>Si</reponse>
+        <reponse>Bien sur que si!</reponse>
+        <reponse>Ah, ok</reponse>
+    </question>
+         
+    
+    <question text="Tell me"  answerID="3">
+        <reponse>me</reponse>
+        <reponse>Me</reponse>
+        <reponse>No, better die !</reponse>
+    </question>       
+    
+    <question text="HAhahha"  answerID="1">
+        <reponse>Ne te moque pas des handicapés</reponse>
+        <reponse>ahahahahhahaha</reponse>
+        <reponse>Réponse D</reponse>
+    </question>       
+    
+    <question text="Avez vous déja vu?"  answerID="1">
+        <reponse>Maintenant oui</reponse>
+        <reponse>WHAT THE FUCK?</reponse>
+        <reponse>Easy</reponse>
+    </question>
+
+    <question text="Avez vous déja vu?"  answerID="2">
+        <reponse>Maintenant oui</reponse>
+        <reponse>WHAT THE FUCK?</reponse>
+        <reponse>Easy</reponse>
+    </question>
+    
+</questions>
