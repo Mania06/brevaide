@@ -21,6 +21,7 @@ import android.support.v4.app.NavUtils;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -120,6 +121,16 @@ public class Act_QCM extends Activity {
 					
 					setContentView(R.layout.activity_qcm_resultat);
 					TextView resultat = (TextView) findViewById(R.id.resultat);
+					Button seeErrors = (Button) findViewById(R.id.buttonSeeErrors);
+					
+					seeErrors.setOnClickListener(new OnClickListener(){
+
+						@Override
+						public void onClick(View v) {
+							
+							
+						}});
+					
 					resultat.setText("Bonnes réponses : " + correctQuestionCounter + "/10");
 					
 					for(int i=0;i<falseQuestions.size();i++)

@@ -18,5 +18,6 @@
     <string name="maths">Mathématiques</string>
     <string name="history">Histoire</string>
     <string name="selectDiscipline">Choisis la matière</string>
+    <string name="seeErrors">Voir mes erreurs</string>
 
 </resources>
