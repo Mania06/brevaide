@@ -72,11 +72,25 @@ public class Db_QCM {
 		return cursorToQCM(c);
 	}
 	
-	public ArrayList<QCM> getAllQCM(){
-		ArrayList<QCM> QCMs = new ArrayList<QCM>();
+	public ArrayList<QCM> getAllQCMs(){
+
 		db = DbHandler.getReadableDatabase();
 		Cursor c= db.rawQuery("SELECT * FROM " + TABLE_NAME, null);
+		return cursorToQCMs(c);
+
+	}
+	
+	public ArrayList<QCM> getQCMsbyMatiere(String matiere){
+
+		db = DbHandler.getReadableDatabase();
+		Cursor c= db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COL_MATIERE + " = ?", new String[]{matiere});
+		return cursorToQCMs(c);
+
+	}
+	
+	private ArrayList<QCM> cursorToQCMs(Cursor c) {
 		
+		ArrayList<QCM> QCMs = new ArrayList<QCM>();
 		if (c.getCount() == 0)
 			return QCMs;
 		
@@ -106,8 +120,9 @@ public class Db_QCM {
 		c.close();
 		return QCMs;
 	}
-	
 
+	
+	
 	private QCM cursorToQCM(Cursor c) {
 		QCM qcm = new QCM();
 		
