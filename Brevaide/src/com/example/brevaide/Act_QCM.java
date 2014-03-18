@@ -15,7 +15,6 @@ import data.brevaide.QCM;
 import data.brevaide.Question;
 import db.brevaide.Db_QCM;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -23,7 +22,6 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 
@@ -156,10 +154,12 @@ public class Act_QCM extends Activity {
 
 	}
 
-	@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+	
 	@Override
 	public void onBackPressed() {
-		finishAffinity();
+		Intent intent = new Intent(getApplicationContext(), Brevaide.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(intent);
 	}
 
 	

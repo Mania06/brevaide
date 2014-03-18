@@ -57,7 +57,7 @@ public class Stats extends Activity {
 		{	
 			frenchAverage += frenchQCMs.get(i).getScore();
 		}
-		for(int i=0;i<mathsCounterQcms;i++)
+		for(int i=0;i<historyCounterQcms;i++)
 		{	
 			historyAverage += historyQCMs.get(i).getScore();
 		}
