@@ -24,7 +24,6 @@
 
         <Button
             android:id="@+id/buttonQCM"
-            style="@style/styleButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/QCM" />
@@ -37,7 +36,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="vertical" >
-
+k
         <Button
             android:id="@+id/buttonTest"
             android:layout_width="match_parent"
