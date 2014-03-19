@@ -40,7 +40,7 @@ public class Act_QCM extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_qcm);
+		setContentView(R.layout.activity_question);
 		
 		final String discipline = getIntent().getExtras().getString("discipline");
 		try {
@@ -119,7 +119,7 @@ public class Act_QCM extends Activity {
 					dbQcm.add(qcm);
 					dbQcm.close();
 					
-					setContentView(R.layout.activity_qcm_resultat);
+					setContentView(R.layout.activity_resultat);
 					TextView resultat = (TextView) findViewById(R.id.resultat);
 					Button seeErrors = (Button) findViewById(R.id.buttonSeeErrors);
 					
@@ -127,7 +127,7 @@ public class Act_QCM extends Activity {
 
 						@Override
 						public void onClick(View v) {
-							Intent intent = new Intent(Act_QCM.this,SeeQcmErrors.class);
+							Intent intent = new Intent(Act_QCM.this,SeeErrors.class);
 							intent.putExtra("falseQuestions",falseQuestions);
 							startActivity(intent);
 

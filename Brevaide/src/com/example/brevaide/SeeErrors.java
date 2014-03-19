@@ -9,12 +9,12 @@ import android.view.MenuItem;
 import android.widget.ListView;
 import android.app.Activity;
 
-public class SeeQcmErrors extends Activity {
+public class SeeErrors extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_see_qcm_errors);
+		setContentView(R.layout.activity_see_errors);
 		
 		ArrayList<Question> falseQuestions = getIntent().getExtras().getParcelableArrayList("falseQuestions");
 		ListView lvErrors = (ListView) findViewById(R.id.listViewErrors);

@@ -57,7 +57,7 @@
                 android:value="com.example.brevaide.Brevaide" />
         </activity>
         <activity
-            android:name="com.example.brevaide.SeeQcmErrors"
+            android:name="com.example.brevaide.SeeErrors"
             android:label="@string/title_activity_see_qcm_errors"
             android:parentActivityName="com.example.brevaide.Act_QCM" 
             android:taskAffinity="com.example.brevaide.QCM">
