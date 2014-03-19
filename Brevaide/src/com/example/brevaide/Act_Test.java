@@ -11,6 +11,8 @@ import org.xmlpull.v1.XmlPullParserException;
 import xml.brevaide.QuestionsXMLHandler;
 
 import data.brevaide.Question;
+import data.brevaide.Test;
+import db.brevaide.Db_Test;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -21,7 +23,7 @@ import android.widget.Toast;
 import android.app.Activity;
 import android.content.Intent;
 
-public class Test extends Activity {
+public class Act_Test extends Activity {
 	
 	ArrayList<Question> falseQuestions = new ArrayList<Question>();
 	ArrayList<Question> questions = new ArrayList<Question>();
@@ -124,6 +126,13 @@ public class Test extends Activity {
 				if(questionCounter >= nombreQuestions)
 				{	
 					
+					Test test = new Test(correctQuestionCounter*100/nombreQuestions);
+					Db_Test dbTest = new Db_Test(getApplicationContext());
+					
+					dbTest.open();
+					dbTest.add(test);
+					dbTest.close();
+					
 					setContentView(R.layout.activity_resultat);
 					TextView resultat = (TextView) findViewById(R.id.resultat);
 					Button seeErrors = (Button) findViewById(R.id.buttonSeeErrors);
@@ -132,7 +141,7 @@ public class Test extends Activity {
 
 						@Override
 						public void onClick(View v) {
-							Intent intent = new Intent(Test.this,SeeErrors.class);
+							Intent intent = new Intent(Act_Test.this,SeeErrors.class);
 							intent.putExtra("falseQuestions",falseQuestions);
 							startActivity(intent);
 

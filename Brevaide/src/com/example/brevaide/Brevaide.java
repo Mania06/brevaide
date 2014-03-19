@@ -38,7 +38,7 @@ public class Brevaide extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				startActivity(new Intent(Brevaide.this,Test.class));
+				startActivity(new Intent(Brevaide.this,Act_Test.class));
 			}
 
 		});

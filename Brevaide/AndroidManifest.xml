@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.brevaide.Test"
+            android:name="com.example.brevaide.Act_Test"
             android:label="@string/title_activity_test"
             android:parentActivityName="com.example.brevaide.Brevaide" >
             <meta-data
