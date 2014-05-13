@@ -1,65 +1,253 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <questions>
-        
-    <question text="Je t'aime pas" answerID="2">
-        <reponse>:(</reponse>
-        <reponse>Tu dis ca parce que je suis noir?</reponse>
-        <reponse>Tu crains</reponse>
-    </question>
-        
-    <question text="Vous êtes Odile Deray?" answerID="3">
-        <reponse>JAMAIS, JAMAIIIIIIIIIS !!!</reponse>
-        <reponse>Oui, pour te faire plaisir ;)</reponse>
-        <reponse>Non, je suis le pape et j'attends ma soeur..</reponse>
-    </question>     
-        
-    <question text="Vous voulez du Wisky?"  answerID="1">
-        <reponse>Juste un doigt</reponse>
-        <reponse>Oui, mais pas trop</reponse>
-        <reponse>Pas beaucoup alors</reponse>
-    </question>
-    
-    <question text=".srevne'l à dnopéR"  answerID="3">
-        <reponse>Va crever</reponse>
-        <reponse>Paris Hamilton</reponse>
-        <reponse>.KO</reponse>
-    </question>
-    
-    <question text="David Douillet a-t-il vraiment détourné 20 centimes pendant la dernières opération « Pièces Jaunes »"  answerID="3">
-        <reponse>Oui, la CIA est sur le coup</reponse>
-        <reponse>Oui, mais Bernadette a étouffé l'affaire</reponse>
-        <reponse>Non, mais  David Douillet a fait 7 fois la couverture de Porc Magazine.</reponse>
-    </question>
-    
-    <question text="Quelle est la version afgane du Golf?"  answerID="1">
-        <reponse>Uniquement se mettre des coups de club dans la geule</reponse>
-        <reponse>Jouer avec des grenades à la place des balles de golf</reponse>
-        <reponse>Ceux qui le savent n'ont pas survécu</reponse>
-    </question>
-         
-    
-    <question text="Combien de doigts peut tu te rentrer dans le nez en même temps?"  answerID="2">
-        <reponse>3</reponse>
-        <reponse>2 en comptant les orteils</reponse>
-        <reponse>1</reponse>
-    </question>       
-    
-    <question text="Vrai, c'est vrai et faux c'est faux, c'est vrai ca? Ou c'est faux?"  answerID="3">
-        <reponse>C'est faux</reponse>
-        <reponse>C'est pas vrai</reponse>
-        <reponse>C'est pas vrai que c'est faux</reponse>
-    </question>       
-    
-    <question text="Es ce que j'attaque la?"  answerID="1">
-        <reponse>Non, plutôt la!</reponse>
-        <reponse>Oui, la</reponse>
-        <reponse>A ta place, j'attaquerai la</reponse>
-    </question>
-
-    <question text="Pourquoi quand un verre tombe, il casse toujours au dernier rebond?"  answerID="2">
-        <reponse>On peut pas savoir si ce sera vraiment le dernier</reponse>
-        <reponse>Parce que c'est le dernier rebond</reponse>
-        <reponse>C'est des probabilités, ca arrive que ce soit pas le dernier</reponse>
-    </question>
-    
+	<question text="La contraception est légalisée en France en…" answerID="2">
+		<reponse>1944</reponse>
+		<reponse>1967</reponse>
+		<reponse>1982</reponse>
+	</question>
+	<question text="Avec l’apparition de la contraception dans la vie quotidienne, la fécondité…" answerID="1">
+		<reponse>Baisse</reponse>
+		<reponse>Reste inchangée</reponse>
+		<reponse>Augmente</reponse>
+	</question>
+	<question text="Qu’est- ce que la FIV ?" answerID="2">
+		<reponse>Une bactérie qui peut se développer uniquement chez les bébés pendant la grossesse</reponse>
+		<reponse>Une technique qui permet d’aider les couples en difficulté à procréer</reponse>
+		<reponse>Un moyen de contraception</reponse>
+	</question>
+	<question text="Le premier bébé éprouvette de l’histoire né en 1978…" answerID="3">
+		<reponse>En France</reponse>
+		<reponse>Aux Etats-Unis</reponse>
+		<reponse>En Grande Bretagne</reponse>
+	</question>
+	<question text="Quelle partie de la population a bénéficié en premier des progrès médicaux ?" answerID="1">
+		<reponse>Les enfants</reponse>
+		<reponse>Les adultes</reponse>
+		<reponse>Les personnes âgées</reponse>
+	</question>
+	<question text="Le vaccin contre la rage a été découvert…" answerID="2">
+		<reponse>Par le frère de Louis Pasteur</reponse>
+		<reponse>En 1885</reponse>
+		<reponse>Il y a moins d’un siècle</reponse>
+	</question>
+	<question text="L’augmentation de l’effectif d’une population calculée pour une année correspond…" answerID="3">
+		<reponse>A la natalité</reponse>
+		<reponse>A la mortalité</reponse>
+		<reponse>A la croissance démographique</reponse>
+	</question>
+	<question text="La mortalité infantile…" answerID="1">
+		<reponse>Est plus importante dans les pays en développement</reponse>
+		<reponse>Est plus importante dans les pays développés</reponse>
+		<reponse>Est aujourd’hui égale à 0</reponse>
+	</question>
+	<question text="François Ferdinand s’est fait assassiné à Sarajevo le..." answerID="2">
+		<reponse>18 juin 1914</reponse>
+		<reponse>28 juin 1914</reponse>
+		<reponse>25 juin 1915</reponse>
+	</question>
+	<question text="Du 6 au 13 septembre 1914 il y a eu la…" answerID="3">
+		<reponse>Bataille de Verdun</reponse>
+		<reponse>Bataille des Flandres</reponse>
+		<reponse>Bataille de la Marne</reponse>
+	</question>
+	<question text="Les pays qui constituent la Triple Entente sont…" answerID="2">
+		<reponse>Autriche-Hongrie-Allemagne</reponse>
+		<reponse>Empire Russe-France-Royaume Uni</reponse>
+		<reponse>Italie-France-Royaume Uni</reponse>
+	</question>
+	<question text="La bataille de Verdun…" answerID="2">
+		<reponse>a fait 50 000 morts</reponse>
+		<reponse>s’est déroulée de février à décembre 1916</reponse>
+		<reponse>a eu lieu en 1914</reponse>
+	</question>
+	<question text="En 1917 a eu lieu…" answerID="1">
+		<reponse>La révolution russe avec Lénine</reponse>
+		<reponse>Le génocide arménien par les Turcs</reponse>
+		<reponse>L’abdication de l’empereur Guillaume II d’Allemagne</reponse>
+	</question>
+	<question text="Au total il y a eu…" answerID="2">
+		<reponse>1 million de morts</reponse>
+		<reponse>10 millions de morts</reponse>
+		<reponse>20 millions de morts</reponse>
+	</question>
+	<question text="Qu’est ce qui a eu lieu le 28 juin 1919 ?" answerID="3">
+		<reponse>La Conférence de la paix</reponse>
+		<reponse>La signature de l’armistice</reponse>
+		<reponse>Le traité de Versailles</reponse>
+	</question>
+	<question text="A quand remonte la fondation de l’URSS ?" answerID="2">
+		<reponse>1918</reponse>
+		<reponse>1922</reponse>
+		<reponse>1924</reponse>
+	</question>
+	<question text="Staline arrive au pouvoir en 1924…" answerID="2">
+		<reponse>Par un coup d’Etat</reponse>
+		<reponse>Par la force, après avoir exclu son opposant Trotski</reponse>
+		<reponse>Après avoir été élu par le peuple au suffrage universel</reponse>
+	</question>
+	<question text="Qu’est ce qui n’est pas une caractéristique du totalitarisme Stalinien ?" answerID="1">
+		<reponse>La liberté d’expression</reponse>
+		<reponse>Le culte de la personnalité</reponse>
+		<reponse>La répression</reponse>
+	</question>
+	<question text="Qu’est-ce que le Goulag ?" answerID="3">
+		<reponse>Un parti politique</reponse>
+		<reponse>La police politique russe</reponse>
+		<reponse>Un camp de travail où l’on enfermait les opposants politiques</reponse>
+	</question>
+	<question text="Les plans quinquennaux de Staline…" answerID="1">
+		<reponse>Privilégiaient l’industrie</reponse>
+		<reponse>Ont été lancés en 1926</reponse>
+		<reponse>Etaient contre la planification de l’économie</reponse>
+	</question>
+	<question text="En 1939, l’URSS…" answerID="3">
+		<reponse>Fait alliance avec la France</reponse>
+		<reponse>N’est plus une économie étatisée</reponse>
+		<reponse>Est la 3ème économie mondiale derrière les Etats-Unis et l’Allemagne</reponse>
+	</question>
+	<question text="L’URSS entre en guerre en…" answerID="3">
+		<reponse>1939</reponse>
+		<reponse>1940</reponse>
+		<reponse>1941</reponse>
+	</question>
+	<question text="Le NSDAP, parti politique d’extrême droite a été fondé par Hitler en…" answerID="2">
+		<reponse>1918</reponse>
+		<reponse>1920</reponse>
+		<reponse>1933</reponse>
+	</question>
+	<question text="L’ouvrage écrit par Hitler et qui reprend ses principales idées…" answerID="1">
+		<reponse>A été écrit lorsqu’il était en prison entre 1924 et 1925</reponse>
+		<reponse>S’appelle « Mein Kampf » et signifie « mon parti »</reponse>
+		<reponse>N’est pas un ouvrage antisémite</reponse>
+	</question>
+	<question text="Hitler arrive au pouvoir…" answerID="3">
+		<reponse>En étant élu lors des élections présidentielles de 1932</reponse>
+		<reponse>Par un coup d’Etat en 1933</reponse>
+		<reponse>En tant que chancelier Allemand en 1933</reponse>
+	</question>
+	<question text="Selon Hitler, la race idéale et pure…" answerID="3">
+		<reponse>N’existe pas</reponse>
+		<reponse>Est appelée la jeunesse Hitlérienne</reponse>
+		<reponse>Est appelée la race aryenne</reponse>
+	</question>
+	<question text="Qu’est-ce que la Gestapo ?" answerID="1">
+		<reponse>La police Nazi</reponse>
+		<reponse>Le fait de protéger un juif</reponse>
+		<reponse>Le terme allemand pour désigner un camp de concentration</reponse>
+	</question>
+	<question text="Sous le régime totalitaire d’Hitler…" answerID="2">
+		<reponse>Seuls les juifs étaient persécutés</reponse>
+		<reponse>Les magasins étaient juifs étaient boycottés</reponse>
+		<reponse>Il n’y avait pas de propagande</reponse>
+	</question>
+	<question text="Quel élément marque le tournant de l’antisémitisme allemand en 1935 ?" answerID="3">
+		<reponse>La nuit de cristal</reponse>
+		<reponse>L’apparition des premiers camps de concentration</reponse>
+		<reponse>Les lois de Nuremberg</reponse>
+	</question>
+	<question text="Qu’est ce qui a eu lieu le 1er septembre 1939 ?" answerID="3">
+		<reponse>Le début de la seconde guerre mondiale</reponse>
+		<reponse>L’invasion de l’Autriche</reponse>
+		<reponse>L’invasion de la Pologne</reponse>
+	</question>
+	<question text="Qui demande l’armistice le 17 juin 1940 ?" answerID="1">
+		<reponse>Le maréchal Pétain</reponse>
+		<reponse>Le général De Gaulle</reponse>
+		<reponse>Le chancelier Hitler</reponse>
+	</question>
+	<question text="Le 18 juin 1940, le général De Gaulle appelle…" answerID="3">
+		<reponse>Au combat</reponse>
+		<reponse>A la fuite</reponse>
+		<reponse>A la résistance</reponse>
+	</question>
+	<question text="De quel régime la formule « Travail, Famille, Patrie » est-elle la devise ?" answerID="2">
+		<reponse>Le régime Stalinien</reponse>
+		<reponse>Le régime de Vichy</reponse>
+		<reponse>Le régime Hitlérien</reponse>
+	</question>
+	<question text="Le régime de Vichy…" answerID="3">
+		<reponse>A été formé par le général De Gaulle</reponse>
+		<reponse>A été renversé par le maréchal Pétain</reponse>
+		<reponse>A été complice de l’Allemagne nazie</reponse>
+	</question>
+	<question text="L’attaque de Pearl Harbor…" answerID="2">
+		<reponse>A eu lieu le 7 décembre 1940</reponse>
+		<reponse>Est une attaque surprise des Japonais contre la flotte américaine</reponse>
+		<reponse>Est une attaque surprise des Allemands contre la flotte américaine</reponse>
+	</question>
+	<question text="La bataille de Stalingrad…" answerID="1">
+		<reponse>Est considérée comme une bataille d’anéantissement</reponse>
+		<reponse>A été remportée par les Allemands</reponse>
+		<reponse>S’est déroulée de mars à septembre 1943</reponse>
+	</question>
+	<question text="Le débarquement des Alliés (USA + Anglais) a eu lieu…" answerID="2">
+		<reponse>Le 6 juin 1944 en Provence</reponse>
+		<reponse>Le 6 juin 1944 en Normandie</reponse>
+		<reponse>Le 6 juin 1945 en Normandie</reponse>
+	</question>
+	<question text="En avril 1945, Hitler…" answerID="3">
+		<reponse>Est décédé dans un combat</reponse>
+		<reponse>Est a été condamné à mort</reponse>
+		<reponse>S’est suicidé</reponse>
+	</question>
+	<question text="Quel Etat lance des bombes atomiques sur le Japon pour les forcer à capituler ?" answerID="2">
+		<reponse>L’Allemagne</reponse>
+		<reponse>Les Etats-Unis</reponse>
+		<reponse>La France</reponse>
+	</question>
+	<question text="Le 8 mai 1945 correspond…" answerID="3">
+		<reponse>A la capitulation Japonaise</reponse>
+		<reponse>A la Victoire de l’Allemagne Nazi</reponse>
+		<reponse>A la capitulation Allemande</reponse>
+	</question>
+	<question text="Une bombe a été larguée le 9 aout…" answerID="2">
+		<reponse>Sur Hiroshima</reponse>
+		<reponse>Sur Nagasaki</reponse>
+		<reponse>Sur Fukushima</reponse>
+	</question>
+	<question text="Le Procès de Nuremberg…" answerID="1">
+		<reponse>Met en accusation les chefs nazis après la fin du régime hitlérien</reponse>
+		<reponse>A eu lieu le 2 septembre 1945</reponse>
+		<reponse>N’a condamné personne à la peine de mort</reponse>
+	</question>
+	<question text="L’ONU…" answerID="1">
+		<reponse>A été créée le 26 juin 1945 à San Francisco</reponse>
+		<reponse>Signifie Organisme National de l’Unification</reponse>
+		<reponse>Ne réunissait que 6 pays à sa création</reponse>
+	</question>
+	<question text="Pour être citoyen il faut…" answerID="2">
+		<reponse>Avoir la nationalité du pays dans lequel on vit</reponse>
+		<reponse>Etre reconnu comme membre d’une cité et respecter ses droits et ses devoirs</reponse>
+		<reponse>Ne jamais avoir été en prison</reponse>
+	</question>
+	<question text="Pour avoir la nationalité française, on peut…" answerID="1">
+		<reponse>Etre né en France de parents étrangers</reponse>
+		<reponse>Etre né en France de parents étrangers et avoir vécu en France depuis au moins 3 ans</reponse>
+		<reponse>Etre né en France de parents étrangers et avoir vécu en France depuis au moins 5 ans</reponse>
+	</question>
+	<question text="La sécurité sociale correspond à…" answerID="1">
+		<reponse>Un droit socio-économique</reponse>
+		<reponse>Un droit civil</reponse>
+		<reponse>Un devoir civil</reponse>
+	</question>
+	<question text="A quel âge obtient-on les droits politiques ?" answerID="1">
+		<reponse>13 ans</reponse>
+		<reponse>18 ans</reponse>
+		<reponse>21 ans</reponse>
+	</question>
+	<question text="Voter est…" answerID="3">
+		<reponse>Un droit</reponse>
+		<reponse>Un devoir</reponse>
+		<reponse>Un droit et un devoir</reponse>
+	</question>
+	<question text="Etre capable de s’engager dans un acte juridique correspond…" answerID="1">
+		<reponse>A la majorité civile</reponse>
+		<reponse>A la majorité pénale</reponse>
+		<reponse>A la majorité matrimoniale</reponse>
+	</question>
+	<question text="Pour être citoyen européen il faut…" answerID="1">
+		<reponse>Etre citoyen d’un pays de l’Union Européenne</reponse>
+		<reponse>Payer une taxe Européenne</reponse>
+		<reponse>Ne jamais avoir quitté l’Europe</reponse>
+	</question>
 </questions>

@@ -1,65 +1,253 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <questions>
-        
-    <question text="2*2 = ?" answerID="1">
-        <reponse>4</reponse>
-        <reponse>7</reponse>
-        <reponse>1</reponse>
-    </question>
-        
-    <question text="5+4" answerID="1">
-        <reponse>9</reponse>
-        <reponse>12</reponse>
-        <reponse>8.999</reponse>
-    </question>     
-        
-    <question text="Qui es tu?"  answerID="3">
-        <reponse>Toi</reponse>
-        <reponse>Moi</reponse>
-        <reponse>Nous</reponse>
-    </question>
-    
-    <question text="Ensuite"  answerID="3">
-        <reponse>ok</reponse>
-        <reponse>Batard</reponse>
-        <reponse>Je t'emmerde</reponse>
-    </question>
-    
-    <question text="9gag?"  answerID="3">
-        <reponse>.tv?</reponse>
-        <reponse>.come</reponse>
-        <reponse>.èffeaire</reponse>
-    </question>
-    
-    <question text="Non"  answerID="2">
-        <reponse>Si</reponse>
-        <reponse>Bien sur que si!</reponse>
-        <reponse>Ah, ok</reponse>
-    </question>
-         
-    
-    <question text="Tell me"  answerID="3">
-        <reponse>me</reponse>
-        <reponse>Me</reponse>
-        <reponse>No, better die !</reponse>
-    </question>       
-    
-    <question text="HAhahha"  answerID="1">
-        <reponse>Ne te moque pas des handicapés</reponse>
-        <reponse>ahahahahhahaha</reponse>
-        <reponse>Réponse D</reponse>
-    </question>       
-    
-    <question text="Avez vous déja vu?"  answerID="1">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
-    </question>
-
-    <question text="Avez vous déja vu?"  answerID="2">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
-    </question>
-    
+	<question text="Quelle est la nature du mot situé entre parenthèses : Elle est grande cette ‘maison’." answerID="2">
+		<reponse>Un déterminant</reponse>
+		<reponse>Un nom commun</reponse>
+		<reponse>Un pronom</reponse>
+	</question>
+	<question text="Quelle est la définition d'un pronom ?" answerID="3">
+		<reponse>Il exprime une qualité d'un être ou d'une chose</reponse>
+		<reponse>Il désigne des actions, des pensées, des sentiments</reponse>
+		<reponse>Il sert à remplacer un nom</reponse>
+	</question>
+	<question text="Quelles est la nature grammaticale de : Mais, où, est, donc, or, ni, car ?" answerID="3">
+		<reponse>Conjonction de subordination</reponse>
+		<reponse>Pronom relatif</reponse>
+		<reponse>Conjonction de coordination</reponse>
+	</question>
+	<question text="Comment s’appelle  une proposition qui s’organise autour d'un noyau verbal ?" answerID="2">
+		<reponse>Indépendante</reponse>
+		<reponse>Subordonnée relative</reponse>
+		<reponse>Juxtaposée</reponse>
+	</question>
+	<question text="Qu'est-ce qu'une proposition indépendante juxtaposée ?" answerID="3">
+		<reponse>Elle est reliée par un adverbe de liaison</reponse>
+		<reponse>Elle est séparée par une virgule, un point virgule ou deux points</reponse>
+		<reponse>Elle établit un lien de dépendance entre deux propositions</reponse>
+	</question>
+	<question text="« Dans quelques heures » est un complément circonstanciel de ?" answerID="1">
+		<reponse>Temps</reponse>
+		<reponse>Lieu</reponse>
+		<reponse>Cause</reponse>
+	</question>
+	<question text="De quel type de complément circonstanciel s’agit-il dans cette phrase :  Je prépare le feu avec des bouts de bois  ?" answerID="3">
+		<reponse>CC de but</reponse>
+		<reponse>CC de d’accompagnement</reponse>
+		<reponse>CC de manière</reponse>
+	</question>
+	<question text="Dans la phrase : O nuit, comme tu es belle . Quelle est la fonction de “O nuit”?" answerID="3">
+		<reponse>Attribut du sujet</reponse>
+		<reponse>Sujet</reponse>
+		<reponse>Apostrophe</reponse>
+	</question>
+	<question text="Quel adjectif peut-on supprimer ?" answerID="1">
+		<reponse>Adjectif épithète</reponse>
+		<reponse>Adjectif attribut du sujet</reponse>
+		<reponse>Aucun</reponse>
+	</question>
+	<question text="Dans la phrase ' Je n’ai pas bien dormi cette nuit. ' Quel est le niveau de langue ?" answerID="3">
+		<reponse>Niveau courant</reponse>
+		<reponse>Niveau soutenu</reponse>
+		<reponse>Niveau familier</reponse>
+	</question>
+	<question text="A quel registre appartient l’expression suivante ?" answerID="1">
+		<reponse>- Wesh bien ou pas ?</reponse>
+		<reponse>Au registre populaire</reponse>
+		<reponse>Au registre argotique</reponse>
+		<reponse>Au registre vulgaire</reponse>
+	</question>
+	<question text="Qu'est-ce qu'un pléonasme ?" answerID="1">
+		<reponse>Lorsqu'on emploie deux mots qui veulent dire la même chose</reponse>
+		<reponse>Lorsque deux mots se ressemblent par leur forme ou leur prononciation</reponse>
+		<reponse>Deux mots qui se prononcent pareil mais qui n'ont pas le même sens</reponse>
+	</question>
+	<question text="‘ Une incroyable banalité’ est un exemple de :" answerID="3">
+		<reponse>Antithèse</reponse>
+		<reponse>Oxymore</reponse>
+		<reponse>Chiasme</reponse>
+	</question>
+	<question text="‘ La sonnerie du collège invite les élèves à venir en classe ‘est un exemple de :" answerID="3">
+		<reponse>Comparaison</reponse>
+		<reponse>Métaphore</reponse>
+		<reponse>Personnification</reponse>
+	</question>
+	<question text="‘ Mon chat ronronne tel un pacha sur le sofa ‘est un exemple de :" answerID="2">
+		<reponse>Allitération</reponse>
+		<reponse>Assonance</reponse>
+		<reponse>Anaphore</reponse>
+	</question>
+	<question text="Qu'est-ce qu'une hyperbole ?" answerID="3">
+		<reponse>Une répétions excessive de termes dont le sens est similaire</reponse>
+		<reponse>Une énumération excessive de plusieurs termes</reponse>
+		<reponse>Une exagération dans le choix des termes</reponse>
+	</question>
+	<question text="Qu'est-ce qu'un synonyme ?" answerID="1">
+		<reponse>Un mot de sens identique ou très proche</reponse>
+		<reponse>Un mot de sens différent</reponse>
+		<reponse>Un mot qui s’écrit et qui se prononce pareil</reponse>
+	</question>
+	<question text="Qu'est-ce qu'un antonyme ?" answerID="2">
+		<reponse>Un mot de sens identique ou très proche</reponse>
+		<reponse>Un mot de sens différent</reponse>
+		<reponse>Un mot qui s’écrit et qui se prononce pareil</reponse>
+	</question>
+	<question text="'Le professeur  dit à ses élèves qu’ils auront un contrôle demain' est un exemple de :" answerID="2">
+		<reponse>Discours direct</reponse>
+		<reponse>Discours indirect</reponse>
+		<reponse>Discours indirect libre</reponse>
+	</question>
+	<question text="‘Le professeur dit à ses élèves : 'vous aurez un contrôle demain ‘ est un exemple de :" answerID="1">
+		<reponse>Discours direct</reponse>
+		<reponse>Discours indirect</reponse>
+		<reponse>Discours indirect libre</reponse>
+	</question>
+	<question text="Le verbe prendre est un verbe du :" answerID="1">
+		<reponse>Discours direct</reponse>
+		<reponse>Discours indirect</reponse>
+		<reponse>Discours indirect libre</reponse>
+	</question>
+	<question text="Comment se termine le participe passé dans la phrase suivante : elles sont parti_ ?" answerID="3">
+		<reponse>partis</reponse>
+		<reponse>partie</reponse>
+		<reponse>parties</reponse>
+	</question>
+	<question text="Dans le verbe 'étudier' à l'imparfait de l'indicatif - 1er personne du pluriel, combien y a-t-il de 'i'" answerID="3">
+		<reponse>0</reponse>
+		<reponse>1</reponse>
+		<reponse>2</reponse>
+	</question>
+	<question text="Quelle est la valeur du verbe dans la phrase suivant : Le froid est vif ce matin." answerID="3">
+		<reponse>Présent de narration</reponse>
+		<reponse>Présent d’énonciation</reponse>
+		<reponse>Présent de description</reponse>
+	</question>
+	<question text="Quelle est la valeur du verbe dans la phrase suivant : Les chimpanzés ne peuvent apprendre que quelques mots ?" answerID="1">
+		<reponse>Présent de vérité générale</reponse>
+		<reponse>Présent d’énonciation</reponse>
+		<reponse>Présent de description</reponse>
+	</question>
+	<question text="Quelle est la valeur des verbes dans la phrase suivant « Il faisait chaud cette nuit-là. Le chien aboyait. »" answerID="2">
+		<reponse>Imparfait de second plan</reponse>
+		<reponse>Imparfait de description</reponse>
+		<reponse>Imparfait de vérité générale</reponse>
+	</question>
+	<question text="Quelle est la valeur du verbe dans la phrase suivant «Désormais, j'étudierai un cours de français par  jour. »" answerID="2">
+		<reponse>La valeur de base</reponse>
+		<reponse>Futur d’habitude</reponse>
+		<reponse>Futur de narration</reponse>
+	</question>
+	<question text="Parmi les propositions suivantes, laquelle n’est pas une des valeurs du présent :" answerID="3">
+		<reponse>Valeur d’énonciation</reponse>
+		<reponse>Présent de vérité générale</reponse>
+		<reponse>Valeur de description</reponse>
+	</question>
+	<question text="Quels sont les temps qui sont considérés comme descriptifs" answerID="1">
+		<reponse>Le présent et l’imparfait</reponse>
+		<reponse>Le subjonctif et l’imparfait</reponse>
+		<reponse>Le passé simple et le futur</reponse>
+	</question>
+	<question text="Si le récit est écrit dans les temps du présent, alors le temps descriptif employé sera le" answerID="2">
+		<reponse>L’imparfait</reponse>
+		<reponse>Présent de l'indicatif</reponse>
+		<reponse>Le passé simple</reponse>
+	</question>
+	<question text="Si le récit est écrit dans les temps du passé, alors le temps descriptif employé sera le" answerID="1">
+		<reponse>L’imparfait</reponse>
+		<reponse>Présent de l'indicatif</reponse>
+		<reponse>Le passé simple</reponse>
+	</question>
+	<question text="'. . . lui qui m'a tout appris' On peut remplacer les pointillés par :" answerID="1">
+		<reponse>Ces</reponse>
+		<reponse>S’est</reponse>
+		<reponse>C’est</reponse>
+	</question>
+	<question text="Cette phrase est écrite correctement : Il a des yeux marrons" answerID="2">
+		<reponse>Vrai</reponse>
+		<reponse>Faux</reponse>
+	</question>
+	<question text="Cette phrase est écrite correctement : Deux mille spectateurs ont assisté à la représentation" answerID="1">
+		<reponse>Vrai</reponse>
+		<reponse>Faux</reponse>
+	</question>
+	<question text="Parmi les questions suivantes laquelle est correctement orthographiée ?" answerID="3">
+		<reponse>Qu’elle heure est-t’il ?</reponse>
+		<reponse>Qu’elle heure est-il ?</reponse>
+		<reponse>Quelle heure est-il ?</reponse>
+	</question>
+	<question text="Parmi les phrases suivantes laquelle est correctement orthographiée ?" answerID="1">
+		<reponse>Je serai bientôt de retour.</reponse>
+		<reponse>Je serais bientôt de retour.</reponse>
+		<reponse>Je seré  bientôt de retour.</reponse>
+	</question>
+	<question text="Parmi les phrases suivantes laquelle est correctement orthographiée ?" answerID="2">
+		<reponse>Je ne sais pas ou elle est allée ?</reponse>
+		<reponse>Je ne sais pas où elle est allée ?</reponse>
+		<reponse>Je ne sais pas où elle est allé ?</reponse>
+	</question>
+	<question text="Parmi les phrases suivantes laquelle est correctement orthographiée ?" answerID="1">
+		<reponse>Nous leur transmettons ce message.</reponse>
+		<reponse>Nous leurs transmettons ce message.</reponse>
+		<reponse>Nous leurs transmettons ce message.</reponse>
+	</question>
+	<question text="Avoir froid dans le dos signifie?" answerID="2">
+		<reponse>Avoir froid soudainement</reponse>
+		<reponse>Avoir une peur intense</reponse>
+		<reponse>Etre malade</reponse>
+	</question>
+	<question text="Faire bonne chère signifie?" answerID="1">
+		<reponse>Faire un bon repas</reponse>
+		<reponse>Faire la fête</reponse>
+		<reponse>Manger de la viande</reponse>
+	</question>
+	<question text="Quel est l’intrus parmi ces verbes : devenir, prendre ou paraitre ?" answerID="1">
+		<reponse>Prendre</reponse>
+		<reponse>Paraitre</reponse>
+		<reponse>Devenir</reponse>
+		<reponse></reponse>
+	</question>
+	<question text="Quel est le pluriel du mot aide- mémoire ?" answerID="3">
+		<reponse>aide- mémoire</reponse>
+		<reponse>aides- mémoire</reponse>
+		<reponse>aide- mémoires</reponse>
+	</question>
+	<question text="Qu’est ce qui différencie la nouvelle d’un roman" answerID="3">
+		<reponse>Son genre</reponse>
+		<reponse>Sa longueur</reponse>
+		<reponse>Sa largeur</reponse>
+	</question>
+	<question text="Qu’es ce qui caractérise le narrateur omniscient" answerID="1">
+		<reponse>Le narrateur omniscient sait tout des personnages et peut voir tous leurs faits et gestes.</reponse>
+		<reponse>Le narrateur omniscient est un personnage</reponse>
+		<reponse>Le narrateur omniscient n’est pas un personnage</reponse>
+	</question>
+	<question text="«  Un récit que fait un auteur de sa propre vie. »  La définition  fait référence a quel termes ?" answerID="2">
+		<reponse>La Biographie</reponse>
+		<reponse>L’Autobiographie</reponse>
+		<reponse>Le Roman</reponse>
+	</question>
+	<question text="Quelles sont les particularités du discours argumentatifs" answerID="3">
+		<reponse>Il a pour objectif  de caractériser quelqu’un ou quelque chose</reponse>
+		<reponse>Il a pour objectif  d’apporter une connaissance ou une information</reponse>
+		<reponse>Il a pour objectif  de convaincre ou de persuader</reponse>
+	</question>
+	<question text="Un texte qui possède une tonalité dramatique produit quels effets sur le lecteur?" answerID="2">
+		<reponse>Émeut, fait peur, maintient le suspense</reponse>
+		<reponse>Émeut, fait pleuré, inspire la pitié</reponse>
+		<reponse>Inspire la terreur et le désespoir sur le destin de l’homme</reponse>
+	</question>
+	<question text="Des coups de bâtons, les expressions du visage, le ton de la voix.. Il s’agit ici de quel procédé comique?" answerID="3">
+		<reponse>Le comique de mœurs</reponse>
+		<reponse>Le comique de situation</reponse>
+		<reponse>Le comique de geste</reponse>
+	</question>
+	<question text="Qui est l’auteur de la tragédie « «le Cid »" answerID="2">
+		<reponse>Molière</reponse>
+		<reponse>Corneille</reponse>
+		<reponse>Racine</reponse>
+	</question>
+	<question text="Comment appelle-t-on un vers de 12 syllabes ?" answerID="3">
+		<reponse>Décasyllabe</reponse>
+		<reponse>Octosyllabe</reponse>
+		<reponse>Alexandrin</reponse>
+	</question>
 </questions>

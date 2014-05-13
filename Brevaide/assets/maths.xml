@@ -1,65 +1,253 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <questions>
-        
-    <question text="Peux tu avoir faux a cette question? " answerID="1">
-        <reponse>Oui</reponse>
-        <reponse>Non</reponse>
-        <reponse>Non, évidement ...</reponse>
-    </question>
-        
-    <question text="Combien de becs a un canard a qui on a rajouté un faux bec?" answerID="3">
-        <reponse>New-York</reponse>
-        <reponse>Iron Man</reponse>
-        <reponse>2</reponse>
-    </question>     
-        
-    <question text="Combien de roues a un tricycle sur une voiture conduite par un roux?"  answerID="1">
-        <reponse>8</reponse>
-        <reponse>4</reponse>
-        <reponse>7</reponse>
-    </question>
-    
-    <question text="Combien y a t-il de lettres dans l'alphabet"  answerID="1">
-        <reponse>9</reponse>
-        <reponse>26</reponse>
-        <reponse>3</reponse>
-    </question>
-    
-    <question text="9gag?"  answerID="3">
-        <reponse>.tv</reponse>
-        <reponse>.come</reponse>
-        <reponse>.èffeaire</reponse>
-    </question>
-    
-    <question text="Mais tu dis que le bonheur est irréductible et je dis Et il dit que ton espoir n´est pas si désespéré a condition d´analyser que l´absolu ne doit pas être annihiler par l´illusoire précarité de nos amours destitués"  answerID="2">
-        <reponse>Oui, évidement</reponse>
-		<reponse>Et vice et versa</reponse>
-        <reponse>Ne pas passer la question</reponse>
-    </question>
-         
-    
-    <question text="imma firin mah"  answerID="1">
-        <reponse>lazor</reponse>
-        <reponse>Leroy Jenkins !</reponse>
-		<reponse>oui</reponse>
-    </question>       
-    
-    <question text="The answer?"  answerID="3">
-        <reponse>The answer</reponse>
-        <reponse>Yes</reponse>
-        <reponse>42</reponse>
-    </question>       
-    
-    <question text="Devine"  answerID="1">
-        <reponse>Sans problemes</reponse>
-        <reponse>Je sais pas</reponse>
-        <reponse>Réponse D</reponse>
-    </question>
-
-    <question text="Avez vous déja vu?"  answerID="1">
-        <reponse>Maintenant oui</reponse>
-        <reponse>WHAT THE FUCK?</reponse>
-        <reponse>Easy</reponse>
-    </question>
-    
+	<question text="Léa, Paul et Arthur possèdent chacun un sac contenant des billes. Ils tirent chacun une bille de leur sac. Sac de Léa : 5 billes vertes. Sac de Paul : 10 billes vertes et 30 billes jaunes. Sac d’Arthur : 100 billes vertes et 3 billes jaunes. Qui a la probabilité la plus grande de tirer une bille verte ?" answerID="1">
+		<reponse>Léa</reponse>
+		<reponse>Paul</reponse>
+		<reponse>Arthur</reponse>
+	</question>
+	<question text="Léa, Paul et Arthur possèdent chacun un sac contenant des billes. Sac de Léa : 5 billes vertes. Sac de Paul : 10 billes vertes et 30 billes jaunes. Sac d’Arthur : 100 billes vertes et 3 billes jaunes. On souhaite que Léa ait la même probabilité que Paul de tirer une bille verte. Pour cela, avant le tirage, combien de billes jaunes faut-il ajouter au sac de Léa ?" answerID="3">
+		<reponse>30</reponse>
+		<reponse>20</reponse>
+		<reponse>15</reponse>
+	</question>
+	<question text="Dans une boite en plastique on a mis 6 bonbons à la fraise et 10 bonbons au citron. Dans une boite en métal on a mis 8 bonbons à la fraise et 14 bonbons au citron. Dans une boite en papier on a mis 4 bonbons à la fraise et 8 bonbons au citron. Maxime préfère les bonbons à la fraise, dans quelle boite a-t-il le plus de chance d’en choisir un ?" answerID="2">
+		<reponse>La boite en papier</reponse>
+		<reponse>La boite en plastique</reponse>
+		<reponse>La boite en métal</reponse>
+	</question>
+	<question text="Mélanie participe à un jeu télévisé. Elle est face à 3 portes fermées. Derrière l’une d’elle se trouve une voiture mais derrière les deux autres il n’y a rien. Mélanie choisit d’ouvrir une porte au hasard. S’il y a la voiture, elle a gagné. Quelle est la probabilité qu’elle gagne la voiture ?" answerID="2">
+		<reponse>1/2</reponse>
+		<reponse>1/3</reponse>
+		<reponse>On ne peut pas savoir</reponse>
+	</question>
+	<question text="S’il y a 4 portes au lieu de trois et toujours une seule voiture à gagner, comment évolue la probabilité qu’a Mélanie de gagner la voiture ?" answerID="3">
+		<reponse>Elle augmente</reponse>
+		<reponse>Elle reste identique</reponse>
+		<reponse>Elle diminue</reponse>
+	</question>
+	<question text="2X – 3 = 0" answerID="3">
+		<reponse>X = (-3)/2</reponse>
+		<reponse>X = 2/3</reponse>
+		<reponse>X = 3/2</reponse>
+	</question>
+	<question text="F(X) = 2X² - 10X + 6  si X=3" answerID="1">
+		<reponse>F(X) = -6</reponse>
+		<reponse>F(X) = 54</reponse>
+		<reponse>F(X) = -18</reponse>
+	</question>
+	<question text="(6X – 4)(8-2X) = 0" answerID="2">
+		<reponse>S = {24 ; -16}</reponse>
+		<reponse>S = {  2/3 ; 4)</reponse>
+		<reponse>S = { -4/6 ; -2/8}</reponse>
+	</question>
+	<question text="Développer et réduire V = (3+5X)²" answerID="2">
+		<reponse>9 + 30X + 5X²</reponse>
+		<reponse>9 + 30X + 25X²</reponse>
+		<reponse>9 + 25X²</reponse>
+	</question>
+	<question text="Développer et réduire  (7+X) = 2 (4X – 1)" answerID="3">
+		<reponse>X = (-9)/7</reponse>
+		<reponse>X = - 63</reponse>
+		<reponse>X = 9/7</reponse>
+	</question>
+	<question text="Factoriser l’expression : A= (4X + 2)(2X - 7) – (4X + 2)(6X + 5)" answerID="1">
+		<reponse>A = (4X+2)(-4X-11)</reponse>
+		<reponse>A = (4X+2)(8X-2)</reponse>
+		<reponse>A= - (4X+2)(8X-2)</reponse>
+	</question>
+	<question text="Une robe coûte 24€ et pendant les soldes il y a une remise de 30%. Quelle est son prix après remise ?" answerID="2">
+		<reponse>7,2€</reponse>
+		<reponse>16,8€</reponse>
+		<reponse>31,2€</reponse>
+	</question>
+	<question text="Un tee-shirt coûte 15€, il est tout d’abord soldé à -20% puis lors de la deuxième démarque il est re-soldé à -50%. Quel est son prix final ?" answerID="1">
+		<reponse>6€</reponse>
+		<reponse>4,5€</reponse>
+		<reponse>7,5€</reponse>
+	</question>
+	<question text="Quel est le PGCD de 468 et 144 ?" answerID="3">
+		<reponse>4</reponse>
+		<reponse>18</reponse>
+		<reponse>36</reponse>
+	</question>
+	<question text="Quel est le PGCD de 200 et 105 ?" answerID="1">
+		<reponse>5</reponse>
+		<reponse>10</reponse>
+		<reponse>15</reponse>
+	</question>
+	<question text="Dans un triangle rectangle en B, d’après le théorème de Pythagore :" answerID="2">
+		<reponse>AB² = BC² + AC²</reponse>
+		<reponse>AC² = AB² + BC²</reponse>
+		<reponse>BC² = AB² + AC²</reponse>
+	</question>
+	<question text="La réciproque du théorème de Pythagore permet de…" answerID="1">
+		<reponse>Démontrer qu’un triangle est rectangle</reponse>
+		<reponse>Trouver la longueur d’un côté d’un triangle</reponse>
+		<reponse>Démontrer que deux droites sont parallèles</reponse>
+	</question>
+	<question text="Soit un triangle ABC rectangle en A, sachant que AB=3 cm et AC=4 cm, quelle est la longueur du côté BC ?" answerID="3">
+		<reponse>7 cm</reponse>
+		<reponse>6 cm</reponse>
+		<reponse>5 cm</reponse>
+	</question>
+	<question text="Soit un triangle ABC, soit un point I appartenant à (AB) et un point J appartenant à (AC) et (IJ)//(BC) alors d’après le théorème de Thalès…" answerID="2">
+		<reponse>AB/AI=AC/AJ=IJ/BC</reponse>
+		<reponse>AI/AB=AJ/AC=IJ/BC</reponse>
+		<reponse>AI/AJ=AB/AC=BC/IJ</reponse>
+	</question>
+	<question text="La réciproque du théorème de Thalès permet…" answerID="3">
+		<reponse>De trouver la longueur d’un côté du triangle</reponse>
+		<reponse>De démontrer qu’un triangle est isocèle</reponse>
+		<reponse>De démontrer que deux droites sont parallèles</reponse>
+	</question>
+	<question text="Soit (AB) et (AC) deux droites sécantes en A, un point M appartenant à (AB) et N à (BC), et (MN)//(AC). Si BA= 4 cm, BC=6 cm et BM=3 cm alors…" answerID="1">
+		<reponse>BN= 4,5 cm</reponse>
+		<reponse>BN= 5 cm</reponse>
+		<reponse>BN= 8 cm</reponse>
+	</question>
+	<question text="√(3 )X √(3 ) = ?" answerID="3">
+		<reponse>√(3 )</reponse>
+		<reponse>3²</reponse>
+		<reponse>(√(3 ))²</reponse>
+	</question>
+	<question text="√(50 ) = ?" answerID="1">
+		<reponse>5√(2 )</reponse>
+		<reponse>2√(5 )</reponse>
+		<reponse>7</reponse>
+	</question>
+	<question text="4√(3 ) + 6√(3 ) + 3√(49 ) = ?" answerID="1">
+		<reponse>10√(3 ) + 21</reponse>
+		<reponse>31√(3 )</reponse>
+		<reponse>13√(55 )</reponse>
+	</question>
+	<question text="(√(9 ))² = ?" answerID="2">
+		<reponse>√(3 ) x √(3 )</reponse>
+		<reponse>√(81 )</reponse>
+		<reponse>2√(9 )</reponse>
+	</question>
+	<question text="4√(5 ) x 8√(5 ) - √(25 ) = ?" answerID="3">
+		<reponse>32√(5 ) - 5</reponse>
+		<reponse>135</reponse>
+		<reponse>155</reponse>
+	</question>
+	<question text="Soit une fonction f(x)= 3x + 1" answerID="2">
+		<reponse>L’image de 2 par la fonction f est 1/3</reponse>
+		<reponse>L’image de 2 par la fonction f est 7</reponse>
+		<reponse>L’image de 2 par la fonction f est 6</reponse>
+	</question>
+	<question text="Soit une fonction f(x)= x² - 4" answerID="1">
+		<reponse>L’antécédent de 12 par la fonction f est 4</reponse>
+		<reponse>L’antécédent de 12 par la fonction f est 140</reponse>
+		<reponse>L’antécédent de 12 par la fonction f est 2</reponse>
+	</question>
+	<question text="Laquelle de ces propositions est vraie ?" answerID="3">
+		<reponse>Un nombre n’a toujours qu’un antécédent</reponse>
+		<reponse>Un nombre peut avoir plusieurs images</reponse>
+		<reponse>Un nombre peut ne pas avoir d’antécédent</reponse>
+	</question>
+	<question text="f(x)= 6x + 1 est…" answerID="2">
+		<reponse>Une fonction linéaire</reponse>
+		<reponse>Une fonction affine</reponse>
+		<reponse>N’est pas une fonction</reponse>
+	</question>
+	<question text="Soit la fonction f(x) = -7x + 4" answerID="1">
+		<reponse>Le coefficient directeur est égal à -7</reponse>
+		<reponse>Le coefficient directeur est égal à 7</reponse>
+		<reponse>Le coefficient directeur est égal à 4</reponse>
+	</question>
+	<question text="Soit la fonction f(x) = 5x + 9" answerID="3">
+		<reponse>9 est l’abscisse de la droite</reponse>
+		<reponse>9 est le coefficient directeur de la droite</reponse>
+		<reponse>9 est l’ordonnée à l’origine de la droite</reponse>
+	</question>
+	<question text="Voici les notes sur 20 données à un groupe de 15 élèves : Notes	: 12,17,9,14,6.5,20 ; Effectifs : 3,2,3,4,1,2" answerID="2">
+		<reponse>La moyenne est égale à 12,7</reponse>
+		<reponse>La moyenne est égale à 13,3</reponse>
+		<reponse>La moyenne est égale à 14</reponse>
+	</question>
+	<question text="Soit la série suivante : 6 – 8  – 12 – 15 – 9 – 10 – 18 – 15 – 7 – 8" answerID="3">
+		<reponse>La médiane est égale à 9</reponse>
+		<reponse>La médiane est égale à 10,8</reponse>
+		<reponse>La médiane est égale à 9,5</reponse>
+	</question>
+	<question text="Soit la série : 6 – 8  – 12 – 15 – 9 – 10 – 18 – 15 – 7 – 8" answerID="1">
+		<reponse>L’étendue est égale à 12</reponse>
+		<reponse>L’étendue est égale à 18</reponse>
+		<reponse>L’étendue est égale à 24</reponse>
+	</question>
+	<question text="Soit la série suivante : 2 – 3 – 5,5 – 7 – 9 – 9,5 – 10" answerID="2">
+		<reponse>La moyenne est égale à 6</reponse>
+		<reponse>La médiane est égale à 7</reponse>
+		<reponse>L’étendue est égale à 10</reponse>
+	</question>
+	<question text="Quelle est la bonne formule ?" answerID="2">
+		<reponse>sinus = hypothénuse/opposé</reponse>
+		<reponse>sinus = opposé/hypothénuse</reponse>
+		<reponse>sinus = (adjacent )/hypothénuse</reponse>
+	</question>
+	<question text="Soit un triangle ABC rectangle en A. Le côté AB mesure 5cm et l’angle (ABC) ̂ fait 30°. Quelle est la longueur du côté BC ?" answerID="1">
+		<reponse>Environ 5,8 cm</reponse>
+		<reponse>10 cm</reponse>
+		<reponse>Environ 8,7 cm</reponse>
+	</question>
+	<question text="Soit un triangle quelconque ABC. AB mesure 6cm et BC mesure 7cm. Quelle est la mesure de l’angle (ABC) ̂ ?" answerID="3">
+		<reponse>Environ 27°</reponse>
+		<reponse>Environ 31°</reponse>
+		<reponse>Nous ne pouvons pas résoudre ce problème car le triangle n’est pas rectangle</reponse>
+	</question>
+	<question text="Soit un triangle ABC rectangle en A. AB mesure 4cm et AC mesure 5cm. Quelle est la mesure de l’angle (ABC) ̂ ?" answerID="2">
+		<reponse>Environ 47,5°</reponse>
+		<reponse>Environ 51,3°</reponse>
+		<reponse>Environ 36,9°</reponse>
+	</question>
+	<question text="Quelle est l’aire d’un carré ABCD dont une diagonale mesure 8cm (rappel : la diagonale AC coupe l’angle (DAB) ̂ en deux angles de 45°) ?" answerID="3">
+		<reponse>28cm</reponse>
+		<reponse>30cm</reponse>
+		<reponse>32cm</reponse>
+	</question>
+	<question text="Soit un triangle EFG rectangle en F, sachant qu’on connait l’angle (FEG) ̂ et la longueur FG, pour trouver la longueur du côté EF il faudra utiliser…" answerID="1">
+		<reponse>La tangente</reponse>
+		<reponse>Le sinus</reponse>
+		<reponse>Le cosinus</reponse>
+	</question>
+	<question text="Quelle est le volume d’une pyramide ?" answerID="3">
+		<reponse>1/3 x périmètre de la base x hauteur</reponse>
+		<reponse>1/3 de l’aire de la base x hauteur</reponse>
+		<reponse>1/3 x aire de la base x hauteur</reponse>
+	</question>
+	<question text="Quelle est l’aire d’un cercle ?" answerID="2">
+		<reponse>πx2xR</reponse>
+		<reponse>πxR²</reponse>
+		<reponse>4x πx R²</reponse>
+	</question>
+	<question text="Soit un triangle ABC. La hauteur h de ce triangle est de 5cm et la base AC mesure 6cm. Quelle est son aire ?" answerID="1">
+		<reponse>Aire = 15cm²</reponse>
+		<reponse>Aire = 25 cm²</reponse>
+		<reponse>Aire = 30 cm²</reponse>
+	</question>
+	<question text="Quelle est le volume d’une boule ?" answerID="2">
+		<reponse>1/3 π x R^3</reponse>
+		<reponse>4/3 π x R^3</reponse>
+		<reponse>1/3 π x R²</reponse>
+	</question>
+	<question text="Soit un cylindre de diamètre 6cm et de hauteur 8cm, quelle est son volume ?" answerID="1">
+		<reponse>Environ 226cm3</reponse>
+		<reponse>Environ 905cm3</reponse>
+		<reponse>Environ 151cm3</reponse>
+	</question>
+	<question text="Lequel de ces nombres est un nombre premier ?" answerID="3">
+		<reponse>1</reponse>
+		<reponse>44</reponse>
+		<reponse>109</reponse>
+	</question>
+	<question text="Laquelle de ces propositions est vraie ?" answerID="2">
+		<reponse>Un nombre premier est un nombre qui ne possède qu’un seul diviseur</reponse>
+		<reponse>Deux entiers dont le PGCD est égal à 1 sont dits premiers entre eux</reponse>
+		<reponse>Le PGCD de deux nombres premiers peut être différent de 1</reponse>
+	</question>
+	<question text="Laquelle de ces propositions est vraie ?" answerID="2">
+		<reponse>5 est un diviseur de 56</reponse>
+		<reponse>7 est un diviseur de 56</reponse>
+		<reponse>9 est un diviseur de 56</reponse>
+	</question>
 </questions>
